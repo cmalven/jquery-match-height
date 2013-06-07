@@ -1,7 +1,12 @@
-$ = jQuery
+ # jquery-match-height
+ # Matches the height of all target elements to the tallest in the collection
+ # https://github.com/cmalven/jquery-match-height
+ #
+ # Copyright (c) 2013 Chris Malven
+ # Licensed under the MIT, GPL licenses.
 
-# MatchHeight: Matches the height of all target elements to the tallest in the collection
-#
+ $ = jQuery
+ 
 # $specificTarget:  The element you'd like to match all collection's el to.
 
 $.fn.extend
