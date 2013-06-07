@@ -1,33 +1,19 @@
 {
-  "name": "jquery-match-height",
-  "title": "jQuery Match Height",
-  "description": "Matches the height of DOM elements.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/cmalven/jquery-match-height",
-  "author": {
-    "name": "Chris Malven",
-    "email": "cmalven@chrismalven.com",
-    "url": "http://www.chrismalven.com"
+  "name": "jquery-plugin",
+  "version": "0.0.0-ignored",
+  "engines": {
+    "node": ">= 0.8.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cmalven/jquery-match-height.git"
+  "scripts": {
+    "test": "grunt qunit"
   },
-  "bugs": {
-    "url": "https://github.com/cmalven/jquery-match-height/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/cmalven/jquery-match-height/blob/master/LICENSE-MIT"
-    },
-    {
-      "type": "GPL",
-      "url": "https://github.com/cmalven/jquery-match-height/blob/master/LICENSE-GPL"
-    }
-  ],
-  "dependencies": {
-    "jquery": "~1.5"
-  },
-  "keywords": []
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-qunit": "~0.1.1",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1"
+  }
 }
